@@ -610,6 +610,7 @@ input {
     }
     .hotel{
         width:100%;
+        box-shadow: 0px 3px 15px 0px #0000001A;
     }
     .populaires-cards{
         flex-direction:column;
@@ -633,5 +634,12 @@ input {
     .footer-collumn{
         width:90%;
         padding: 0% 5%;
+    }
+    .card{
+        box-shadow: 0px 3px 15px 0px #0000001A;
+    }
+    .section-activitee-titre{
+        padding-left: 5%;
+        padding-bottom: 33px;
     }
     }
