@@ -381,6 +381,9 @@ input {
     height: 480px;
 }
 
+.section-activitee-titre{
+    font-size: 22px;
+}
 .activitee {
     display: flex;
     flex-direction: column;
@@ -394,7 +397,7 @@ input {
     width: 100%;
     overflow: hidden;
     border-radius: 25px 25px 0px 0px;
-    height: 90%;
+    height: 380px;
 }
 
 .activitee-img img{
@@ -410,7 +413,6 @@ input {
     font-size: 16px;
     box-shadow: 0px 3px 15px 3px #0000001A;
     overflow: hidden;
-    text-wrap: nowrap;
 }
 
 .activitee-titre h3{
@@ -420,7 +422,7 @@ input {
 }
 
 /****** footer ******/
-.footer-tous{
+footer{
     display:flex;
     flex-direction:row;
     background-color:#F2F2F2;
@@ -433,10 +435,12 @@ input {
     justify-content:flex-start;
     justify-items:flex-start;
     width:30%;
+    list-style-type: none;
 }
-    .footer-collumn p {
-        margin-top: 0px;
-    }
+.footer-collumn li{
+    padding-bottom: 16px;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -488,13 +492,15 @@ input {
         height:100%;
     }
     .activitee-img{
-        height:70%;
+        height:200px;
     }
     .activitee-titre{
         height:30%;
-        font-size:12px;
+        font-size:14px;
         overflow: auto;
         text-wrap: wrap;
+        display: flex;
+        align-items: center;
     }
     .activitee-tous{
         height: 250px;
@@ -640,7 +646,7 @@ input {
         height: 200px;
     }
     /***** Footer ******/
-    .footer-tous{
+    footer{
         flex-direction:column;
     }
     .footer-collumn{
